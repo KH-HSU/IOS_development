@@ -20,3 +20,17 @@ var f:Bool = true
 if a == 1{
     print("only if a is equal to one")
 }
+
+// loop
+for index in 1...5 {
+    print(index)
+}
+
+// function
+func addTwoNumbers(arg para:Int) -> Int {
+    let g = para
+    let h = 2
+    return g + h
+}
+let j = addTwoNumbers(arg:2)
+print(j)
